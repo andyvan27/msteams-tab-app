@@ -1,0 +1,24 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "whichFolder": "subdir",
+    "solutionName": "MSTeamsTabSPFxReactApp",
+    "environment": "spo",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart",
+    "template": "react",
+    "componentName": "MSTeamsTabSPFxReactApp",
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "16.20.1",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.9.1"
+    },
+    "version": "1.17.4",
+    "libraryName": "ms-teams-tab-sp-fx-react-app",
+    "libraryId": "4dd375db-442d-4cc7-811e-8704808216d5",
+    "packageManager": "npm",
+    "solutionShortDescription": "MSTeamsTabSPFxReactApp description"
+  }
+}

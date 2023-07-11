@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "ms-teams-tab-sp-fx-react-app-client-side-solution",
+    "id": "4dd375db-442d-4cc7-811e-8704808216d5",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.17.4"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "MSTeamsTabSPFxReactApp description"
+      },
+      "longDescription": {
+        "default": "MSTeamsTabSPFxReactApp description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "ms-teams-tab-sp-fx-react-app Feature",
+        "description": "The feature that activates elements of the ms-teams-tab-sp-fx-react-app solution.",
+        "id": "488e50b6-fd03-4c89-ad1a-01997bf205e2",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/ms-teams-tab-sp-fx-react-app.sppkg"
+  }
+}

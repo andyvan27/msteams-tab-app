@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "ms-teams-tab-sp-fx-react-app-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/msTeamsTabSpFxReactApp/MsTeamsTabSpFxReactAppWebPart.js",
+          "manifest": "./src/webparts/msTeamsTabSpFxReactApp/MsTeamsTabSpFxReactAppWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "MsTeamsTabSpFxReactAppWebPartStrings": "lib/webparts/msTeamsTabSpFxReactApp/loc/{locale}.js"
+  }
+}
