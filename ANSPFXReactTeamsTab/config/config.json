@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "anspfx-react-teams-tab-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/anspfxReactTeamsTab/AnspfxReactTeamsTabWebPart.js",
+          "manifest": "./src/webparts/anspfxReactTeamsTab/AnspfxReactTeamsTabWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "AnspfxReactTeamsTabWebPartStrings": "lib/webparts/anspfxReactTeamsTab/loc/{locale}.js"
+  }
+}
